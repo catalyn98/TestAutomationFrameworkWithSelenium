@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SearchFiledTestSuite" verbose="1">
+    <listeners>
+        <listener class-name="com.prestashop.utils.TestListener"/>
+    </listeners>
+
+    <test name="com.prestashop.searchFieldTests.searchFieldTest">
+        <classes>
+            <class name="com.prestashop.searchFieldTests.SearchFieldTest" />
+        </classes>
+    </test>
+</suite>

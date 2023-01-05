@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Create account feature" verbose="1">
+    <listeners>
+        <listener class-name="com.prestashop.utils.TestListener"/>
+    </listeners>
+
+    <test name="Create account test">
+        <classes>
+            <class name="com.prestashop.createAccountTests.CreateAccountTest" />
+        </classes>
+    </test>
+</suite>

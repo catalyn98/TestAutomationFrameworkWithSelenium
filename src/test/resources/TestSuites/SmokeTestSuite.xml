@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke suite tests">
+    <listeners>
+        <listener class-name="com.prestashop.utils.TestListener"/>
+    </listeners>
+
+    <test name="Create account test">
+        <classes>
+            <class name="com.prestashop.createAccountTests.CreateAccountTest" />
+        </classes>
+    </test>
+
+    <test name="Login tests">
+        <classes>
+            <class name="com.prestashop.loginTests.LoginTest">
+                <methods>
+                    <include name="successfullyLogInTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Checkout tests">
+        <classes>
+            <class name="com.prestashop.checkoutTests.CheckoutTest" />
+        </classes>
+    </test>
+</suite>
