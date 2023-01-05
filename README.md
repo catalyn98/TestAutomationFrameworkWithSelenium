@@ -49,22 +49,9 @@ Examples:
 # Reporting
 
 ### Allure reports
-
-In pom.xml we have the dependency for Allure reporting
-
-```
-        <dependency>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-testng</artifactId>
-            <version>2.16.0</version>
-        </dependency>
-
-```
-
 #### Generate report  
 After a suite/feature was executed you can generate a report based on allure-results files: 
-``` allure ```serve your path where the project is ``` ```
-Using the default settings the reports will be generated in allure-results directory. 
+``` allure serve *your path where the project is*```. Using the default settings the reports will be generated in allure-results directory. 
 
 ## Versioning
 
