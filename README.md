@@ -51,7 +51,7 @@ Examples:
 ### Allure reports
 #### Generate report  
 After a suite/feature was executed you can generate a report based on allure-results files: 
-``` allure serve *your path where the project is*```. Using the default settings the reports will be generated in allure-results directory. 
+*allure serve your path where the project is*. Using the default settings the reports will be generated in allure-results directory. 
 
 ## Versioning
 
