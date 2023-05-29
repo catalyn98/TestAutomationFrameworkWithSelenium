@@ -17,6 +17,10 @@ Test Automation Framework for UI with Selenium uses a number of open source proj
 * [Allure](https://docs.qameta.io/allure/) - is a flexible multi-language test report tool to show you a detailed representation of what has been tested end extract max from the everyday execution of tests.
 
 # Prerequisites
+### Clone the repositories
+```sh
+$ git clone https://github.com/catalyn98/TestAutomationFrameworkWithSelenium.git
+```
 * JDK 17 or higher;
 * Maven 3.8.3 or higher;
 * Allure 2.13 or higher;
